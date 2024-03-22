@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.transaction-form-container {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="number"],
+button,
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.transaction-history h2 {
+    margin-top: 0;
+    margin-bottom: 10px; /* Adiciona espaço abaixo do cabeçalho */
+    color: #333333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    font-size: 14px; /* Defina o tamanho desejado, por exemplo 14px */
+    width: auto; /* defina a largura desejada, por exemplo, "auto" */
+    /*padding: 3px 3px; /* Reduz o preenchimento do botão */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+
+.balance {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.balance h2 {
+    margin-top: 0;
+    color: #333333;
+}
+
+#balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
